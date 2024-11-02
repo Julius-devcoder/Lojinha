@@ -37,6 +37,7 @@ background-color: var(--cor-secundaria);
     padding: 2%;
     display: flex;
     justify-content: space-around;
+    
 }
 
 #planta1{
@@ -87,7 +88,7 @@ background-color: var(--cor-secundaria);
     color: var(--cor-secundaria);
     font-size: 18px;
     width:auto;
-    height: 100px;
+    height: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
