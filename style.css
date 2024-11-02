@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+:root{
+    --cor-primaria: hsl(143, 78%, 17%);
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: rgb(240, 236, 209);
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-color: var(--cor-secundaria);
+
+}
+
+.titulos {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    font-family: var(--fonte-secundaria);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+}
+.foto__Sessao1{
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#planta1{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+#planta2{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;   
+}
+
+#planta3{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;   
+}
+
+.foto__Sessao2{
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#planta4{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+#planta5{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;   
+}
+
+#planta6{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;   
+}
+
+.roda__pe{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-size: 18px;
+    width:auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
