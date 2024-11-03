@@ -32,61 +32,69 @@ background-color: var(--cor-secundaria);
     gap: 25px;
     
 }
-.foto__Sessao1{
-    margin: 2%;
-    padding: 2%;
-    display: flex;
-    justify-content: space-around;
+
+.container__fotos{
     
+
 }
+.foto__Sessao1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+    
+
 
 #planta1{
     width: 250px;
     height: 250px;
-    border-radius: 5%;
+    border-radius: 2%;
 }
 
 #planta2{
     width: 250px;
     height: 250px;
-    border-radius: 5%;   
+    border-radius: 2%;   
 }
 
 #planta3{
     width: 250px;
     height: 250px;
-    border-radius: 5%;   
+    border-radius: 2%;   
 }
 
 .foto__Sessao2{
-    margin: 2%;
-    padding: 2%;
+    margin-top: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
 }
 
 #planta4{
     width: 250px;
     height: 250px;
-    border-radius: 5%;
+    border-radius: 2%;
 }
 
 #planta5{
     width: 250px;
     height: 250px;
-    border-radius: 5%;   
+    border-radius: 2%;   
 }
 
 #planta6{
     width: 250px;
     height: 250px;
-    border-radius: 5%;   
+    border-radius: 2%;   
 }
 
 .roda__pe{
+    margin-top: 80px;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
-    font-size: 18px;
+    font-family: var(--fonte-secundaria);
+    font-size: 14px;
     width:auto;
     height: 55px;
     display: flex;
