@@ -15,6 +15,44 @@
     padding: 0;
 }
 
+header{
+    height: 100px;
+    display: flex;
+    background-color: var(--cor-primaria);
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 50%;
+}
+
+ul {
+    
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color:var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 19px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+li:hover{
+    color: #918e8e;
+
+}
+
+#logotipo{
+    width: 100px;
+    height: 80px;
+}
+
 body{
 background-color: var(--cor-secundaria);
 
